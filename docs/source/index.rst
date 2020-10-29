@@ -10,7 +10,11 @@ Welcome to Python Astroimaging Suite's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+:ref:`pyastrobackend`
+:ref:`pyastroprofile`
+:ref:`pyastroimageview`
+:ref:`hfdfocus`
+:ref:`pyastrometry`
 
 Indices and tables
 ==================
