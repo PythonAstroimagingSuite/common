@@ -51,34 +51,36 @@ release = '0.1'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'sphinx.ext.intersphinx',
+#    'sphinx.ext.intersphinx',
     'sphinx_rtd_theme'
 ]
 
+# Couldn't get this to work will skip for now while I work
+# on actual docs for these modules
 
-intersphinx_mapping = {
-    "pyastrobackend": (
-        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastrobackend/en/%s/"
-        % rtd_version,
-        None,
-    ),
-    "pyastroprofile": (
-        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastroprofile/en/%s/" % rtd_version,
-        None,
-    ),
-    "pyastroimageview": (
-        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastroimageview/en/%s/" % rtd_version,
-        None,
-    ),
-    "hfdfocus": (
-        "https://pythonastroimagingsuite.readthedocs.io/projects/hfdfocus/en/%s/" % rtd_version,
-        None,
-    ),
-    "pyastrometry": (
-        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastrometry/en/%s/" % rtd_version,
-        None,
-    ),
-}
+# intersphinx_mapping = {
+#     "pyastrobackend": (
+#         "https://pythonastroimagingsuite.readthedocs.io/projects/pyastrobackend/en/%s/"
+#         % rtd_version,
+#         None,
+#     ),
+#     "pyastroprofile": (
+#         "https://pythonastroimagingsuite.readthedocs.io/projects/pyastroprofile/en/%s/" % rtd_version,
+#         None,
+#     ),
+#     "pyastroimageview": (
+#         "https://pythonastroimagingsuite.readthedocs.io/projects/pyastroimageview/en/%s/" % rtd_version,
+#         None,
+#     ),
+#     "hfdfocus": (
+#         "https://pythonastroimagingsuite.readthedocs.io/projects/hfdfocus/en/%s/" % rtd_version,
+#         None,
+#     ),
+#     "pyastrometry": (
+#         "https://pythonastroimagingsuite.readthedocs.io/projects/pyastrometry/en/%s/" % rtd_version,
+#         None,
+#     ),
+# }
 
 
 
