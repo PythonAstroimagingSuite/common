@@ -6,12 +6,23 @@
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
 
+import os
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+
+
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+
+# This is used for linking and such so we link to the thing we're building
+rtd_version = os.environ.get("READTHEDOCS_VERSION", "latest")
+if rtd_version not in ["stable", "latest"]:
+    rtd_version = "stable"
 
 # -- Project information -----------------------------------------------------
 
@@ -40,6 +51,33 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx_rtd_theme'
 ]
+
+
+intersphinx_mapping = {
+    "pyastrobackend": (
+        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastrobackend/en/%s/"
+        % rtd_version,
+        None,
+    ),
+    "pyastroprofile": (
+        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastroprofile/en/%s/" % rtd_version,
+        None,
+    ),
+    "pyastroimageview": (
+        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastroimageview/en/%s/" % rtd_version,
+        None,
+    ),
+    "hfdfocus": (
+        "https://pythonastroimagingsuite.readthedocs.io/projects/hfdfocus/en/%s/" % rtd_version,
+        None,
+    ),
+    "pyastrometry": (
+        "https://pythonastroimagingsuite.readthedocs.io/projects/pyastrometry/en/%s/" % rtd_version,
+        None,
+    ),
+}
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
