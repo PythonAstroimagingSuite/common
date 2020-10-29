@@ -24,6 +24,8 @@ rtd_version = os.environ.get("READTHEDOCS_VERSION", "latest")
 if rtd_version not in ["stable", "latest"]:
     rtd_version = "stable"
 
+print('rtd_version = ', rtd_version)
+
 # -- Project information -----------------------------------------------------
 
 project = 'PythonAstroimagingSuite'

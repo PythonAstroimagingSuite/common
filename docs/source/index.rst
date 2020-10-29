@@ -1,7 +1,3 @@
-.. pyastroprofile documentation master file, created by
-   sphinx-quickstart on Wed Jun  5 03:17:47 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 Welcome to Python Astroimaging Suite's documentation!
 =====================================================
@@ -10,11 +6,15 @@ Welcome to Python Astroimaging Suite's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-:ref:`pyastrobackend`
-:ref:`pyastroprofile`
-:ref:`pyastroimageview`
-:ref:`hfdfocus`
-:ref:`pyastrometry`
+
+The Python Astroimaging Suite consists of the following modules and programs:
+
+* `pyastrobackend <https://pythonastroimagingsuite.readthedocs.io/projects/pyastrobackend/en/latest>`
+* `pyastroimageview <https://pythonastroimagingsuite.readthedocs.io/projects/pyastroimageview/en/latest>`
+* `pyastrometry <https://pythonastroimagingsuite.readthedocs.io/projects/pyastrometry/en/latest>`
+* `pyastroprofile <https://pythonastroimagingsuite.readthedocs.io/projects/pyastroprofile/en/latest>`
+* `hfdfocus <https://pythonastroimagingsuite.readthedocs.io/projects/hfdfocus/en/%s/>`
+
 
 Indices and tables
 ==================
