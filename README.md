@@ -27,4 +27,4 @@ Documentation is available at https://PythonAstroimagingSuite.readthedocs.io/en/
 Source
 ------
 
-Source is available on github at https://github.com/mikefulb/PythonAstroimagingSuite.
+Source is available on github at https://github.com/PythonAstroimagingSuite/
