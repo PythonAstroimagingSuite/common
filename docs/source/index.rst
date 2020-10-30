@@ -9,12 +9,11 @@ Welcome to Python Astroimaging Suite's documentation!
 
 The Python Astroimaging Suite consists of the following modules and programs:
 
-* `pyastrobackend <https://pythonastroimagingsuite.readthedocs.io/projects/pyastrobackend/en/latest>`_
-* `pyastroimageview <https://pythonastroimagingsuite.readthedocs.io/projects/pyastroimageview/en/latest>`_
-* `pyastrometry <https://pythonastroimagingsuite.readthedocs.io/projects/pyastrometry/en/latest>`_
-* `pyastroprofile <https://pythonastroimagingsuite.readthedocs.io/projects/pyastroprofile/en/latest>`_
-* `hfdfocus <https://pythonastroimagingsuite.readthedocs.io/projects/hfdfocus/en/latest/>`_
-
+* :any:`pyastrobackend <pyastrobackend:index>`
+* :any:`pyastroimageview <pyastroimageview:index>`
+* :any:`pyastrometry <pyastrometry:index>`
+* :any:`pyastroprofile <pyastroprofile:index>`
+* :any:`hfdfocus <hfdfocus:index>`
 
 Indices and tables
 ==================
